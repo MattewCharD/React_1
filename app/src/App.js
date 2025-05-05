@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Pluto from './Pluto';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +18,11 @@ function App() {
         >
           Learn React
         </a>
+
+        <Pluto />
       </header>
     </div>
   );
 }
 
-export default App;
+
